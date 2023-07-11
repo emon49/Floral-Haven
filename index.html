@@ -35,7 +35,7 @@
       <div class="category-container">
         <div class="cat-header">
           <h2 id="featured-header">Our Featured Flowers</h1>
-          <p id="featured-decription">
+          <p class="featured-decription">
             It is a long established fact that a reader will be distracted by
           the <br>readable content of a page when looking at its layout.
           </p>
@@ -91,7 +91,7 @@
         <div class="insta-header">
             <div class="cat-header">
                 <h2 id="featured-header">Instagram</h1>
-                <p id="featured-decription">
+                <p class="featured-decription">
                   It is a long established fact that a reader will be distracted by
                 the <br>readable content of a page when looking at its layout.
                 </p>
@@ -115,13 +115,68 @@
     <!-- this is Get The Latest Deals section  -->
     <div class="get-deals">
         <div class="get-deals-cover">
-            <h2 id="featured-header">Get The Latest Deals</h1> <br>
-            <p id="featured-decription">
+            <h2 id="featured-header">Get The Latest Deals</h1> 
+            <p class="featured-decription">
                 $30 coupon for first shopping
             </p> <br>
             <input id="email-reciever" type="email" placeholder="   Enter your email here....">
             <button class="btn">Subscribe</button>
         </div>
     </div>
+    <!-- this is contact section -->
+    <article id="contact-container">
+        <section id="info">
+          <div class="about-text">
+            <h1>About Us</h1>
+            <p>Our mission is to bring joy and beauty to people's lives through flowers. We believe that flowers are a special way to express love, appreciation, and support. We are committed to providing our customers with the highest quality flowers and the best possible service.
+            </p><br />
+            <ul class="info-list" type="none">
+              <li>
+                <h6 class="info-title">Address:</h6>
+                <p>5000 Blue-gum-amazon Ave</p>
+              </li>
+              <!-- <li>
+                <h6 class="info-title">Phone:</h6>
+                <ul>
+                  <li>Local: <a href="#">(777) 555-5555</a></li>
+                  <li>Toll Free: <a href="#">1-800-000-0000</a>
+                </ul>
+              </li> -->
+              <li>
+                <br>
+                <h6 class="info-title">Hours:</h6>
+                <ul type="none">
+                  <li>Mon-Fri: 8:30am to 6:00pm</li>
+                  <li>Saturday: 8:30am to 5:00pm</li>
+                  <li>Sunday: Closed</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="contact-form">
+            <form method="POST">
+              <label>Name:</label>
+              <input type="text" id="name" name="firstname" /><br /><br />
+              <label>Email:</label>
+              <input type="email" id="email" name="email" /><br /><br />
+              <label>Message:</label>
+              <textarea rows="5" cols="50"></textarea>
+              <button class="btn submit-btn" type="button" name="submit">Submit</button> 
+            </form>
+          </div>
+        </section>
+    
+    </article>
+      
+    <footer>
+        <div class="footer-container">
+            <h1><span style="color: #E55473;">Flower</span>Shop</h1>
+            <p class="featured-decription">It is a long established fact that a reader will be distracted by the readable
+               <br> content of a page when looking at its layout</p>
+               <p id="copy-right"> &copy;2020-2023, FlowerShop.com. All rights reserved. </p>
+        </div>
+    </footer>
+
   </body>
 </html>
