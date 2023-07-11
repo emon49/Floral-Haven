@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #fceef1;
+}
+.banner {
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tagline {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  color: #272727;
+}
+
+.banner-element {
+  width: 50%;
+}
+.header-decription {
+  font-family: "Inter", sans-serif;
+  color: #272727;
+  margin: 20px 0px 20px 0px;
+  font-size: 13px;
+}
+.welcome-flower {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  align-items: center;
+}
+.first-img {
+  height: 80%;
+  margin-left: 100px;
+}
+
+.banner-text {
+}
